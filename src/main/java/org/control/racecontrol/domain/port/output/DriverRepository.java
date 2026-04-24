@@ -7,5 +7,6 @@ public interface DriverRepository {
     // haya dos pilotos en un equipo
     long countDriversByIdTeam(long idTeam);
 
+    // Guardamos el nuevo piloto
     void save(Driver driver);
 }
