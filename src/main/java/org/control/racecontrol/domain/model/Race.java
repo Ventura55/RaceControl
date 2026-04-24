@@ -1,5 +1,7 @@
 package org.control.racecontrol.domain.model;
 
+import lombok.Data;
+
 public class Race {
     private long id;
     private String name;

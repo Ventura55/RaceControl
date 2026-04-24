@@ -1,6 +1,7 @@
 package org.control.racecontrol.domain.model;
 
 public class Team {
+    // Esto es un comentario
     private long id;
     private String name;
     private String engineSupplier;

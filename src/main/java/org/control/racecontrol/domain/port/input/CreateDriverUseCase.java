@@ -2,7 +2,8 @@ package org.control.racecontrol.domain.port.input;
 
 import org.control.racecontrol.domain.model.Driver;
 
-public interface RegisterDriverUseCase {
-    // Registra un piloto en un equipo
+public interface CreateDriverUseCase {
+    // Nos llaman desde afuera diciendo que tenemos que añadir un
+    // piloto a un equipo
     void execute(Driver driver);
 }
